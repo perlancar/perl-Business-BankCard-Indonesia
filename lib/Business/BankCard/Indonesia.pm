@@ -72,6 +72,11 @@ our $meta = {
 # END SNIPPET id=meta
 my $res = gen_read_table_func(
     name => 'list_id_bank_card_prefixes',
+    description => <<'_',
+
+Data source is currently at https://github.com/sharyanto/gudang-data-interim
+(table/idn_bank_card_prefix).
+
     table_data => $data,
     table_spec => $meta,
     default_fields => 'prefix',

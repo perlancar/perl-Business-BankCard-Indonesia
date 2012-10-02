@@ -74,7 +74,7 @@ my $res = gen_read_table_func(
     name => 'list_id_bank_card_prefixes',
     description => <<'_',
 
-Data source is currently at https://github.com/sharyanto/gudang-data-interim
+Data source is currently at https://github.com/sharyanto/gudangdata
 (table/idn_bank_card_prefix).
 
 _

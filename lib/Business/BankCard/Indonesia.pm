@@ -1,6 +1,6 @@
 package Business::BankCard::Indonesia;
 
-use Perinci::Sub::Gen::AccessTable 0.14 qw(gen_read_table_func);
+use Perinci::Sub::Gen::AccessTable 0.16 qw(gen_read_table_func);
 
 use Exporter;
 our @ISA = qw(Exporter);

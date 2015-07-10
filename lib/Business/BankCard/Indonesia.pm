@@ -83,7 +83,7 @@ Data source is currently at https://github.com/sharyanto/gudangdata
 _
     table_data => $data,
     table_spec => $meta,
-    default_fields => 'prefix',
+    default_fields => ['prefix'],
     langs => ['en_US', 'id_ID'],
 );
 die "BUG: Can't generate func: $res->[0] - $res->[1]" unless $res->[0] == 200;

@@ -9,7 +9,7 @@ use Perinci::Sub::Gen::AccessTable qw(gen_read_table_func);
 use Exporter;
 our @ISA = qw(Exporter);
 our @EXPORT_OK = qw(
-                       list_id_bank_card_prefixes
+                       list_idn_bank_card_prefixes
                );
 
 our %SPEC;
@@ -76,7 +76,7 @@ our $meta = {
 # END FRAGMENT id=meta
 
 my $res = gen_read_table_func(
-    name => 'list_id_bank_card_prefixes',
+    name => 'list_idn_bank_card_prefixes',
     description => <<'_',
 
 Data source is currently at https://github.com/sharyanto/gudangdata
